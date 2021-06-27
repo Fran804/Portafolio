@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Responsivo Website</title>
+    <title>Portafolio Website</title>
 
     <!--============== UNICONS ==============-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
@@ -547,28 +547,28 @@
                         <span class="contact__subtitle">franciscovillalobos804@gmail.com</span>
                     </div>
                 </div>
-
-                <form action="" class="contact__form grid">
+                
+                <form action="enviar.php" method="POST" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="" class="contact__label">Nombre:</label>
-                            <input type="text" class="contact__input">
+                            <input type="text" name="name" class="contact__input">
                         </div>
 
                         <div class="contact__content">
                             <label for="" class="contact__label">Correo:</label>
-                            <input type="email" class="contact__input">
+                            <input type="email" name="mail" class="contact__input">
                         </div>
                     </div>
 
                     <div class="contact__content">
                         <label for="" class="contact__label">Asunto:</label>
-                        <input type="email" class="contact__input">
+                        <input type="email" name="subject" class="contact__input">
                     </div>
 
                     <div class="contact__content">
                         <label for="" class="contact__label">Mensaje:</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <textarea name="message" id="" cols="0" rows="7" class="contact__input"></textarea>
                     </div>
 
                     <div>

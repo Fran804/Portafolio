@@ -82,7 +82,6 @@ let swiper = new Swiper(".portfolio__container", {
     },
 
   });
-
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
 
