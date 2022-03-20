@@ -476,27 +476,31 @@ img{
 }
 
 .skills__html{
-    width: 80%;
+    width: 100%;
 }
 
 .skills__css{
-    width: 70%;
-}
-
-.skills__js{
     width: 90%;
 }
 
+.skills__js{
+    width: 80%;
+}
+
 .skills__react{
+    width: 70%;
+}
+
+.skills__angular{
     width: 80%;
 }
 
 .skills__c{
-    width: 85%;
+    width: 70%;
 }
 
 .skills__python{
-    width: 80%;
+    width: 75%;
 }
 
 .skills__sql{
