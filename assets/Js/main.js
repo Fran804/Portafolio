@@ -1,3 +1,34 @@
+/*==================== TRANSLATED TEXT ====================*/
+const btnTranslatedEs = document.querySelector('#es'),
+      btnTranslatedEn = document.querySelector('#en');
+      textsToTranslated = document.querySelectorAll('[data-section]');
+
+btnTranslatedEs.addEventListener('click', (e) =>  {
+    btnTranslatedEs.style.display = 'none';
+    btnTranslatedEn.style.display = 'contents';
+    changeLanguage(e.target.dataset.language);
+});
+
+btnTranslatedEn.addEventListener('click', (e) =>  {
+  btnTranslatedEn.style.display = 'none';
+  btnTranslatedEs.style.display = 'contents';
+  changeLanguage(e.target.dataset.language);
+});
+
+const changeLanguage = async language => {
+  const requestJSON = await fetch(`./assets/languages/${language}.json`);
+  const texts = await requestJSON.json();
+
+  for(let textIndex of textsToTranslated) {
+    var section = textIndex.dataset.section;
+    var value = textIndex.dataset.value;
+
+    textIndex.innerHTML = texts[section][value];
+  }
+}
+
+/*==================== END TRANSLATED TEXT ====================*/
+
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),

@@ -20,42 +20,43 @@
     <!--============== HEADER ===============-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav__logo">Menu</a>
+            <a href="#" class="nav__logo" data-section="header" data-value="menu">Menu</a>
 
             <a class="nav__logo">|</a>
 
-            <a href="./es/index.html" class="nav__logo">En español</a>
+            <button href="" class="nav__logo btnTranslated" id="es" data-language="es">En español</button>
+            <button href="" class="nav__logo btnTranslated" id="en" data-language="en">In English</button>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
                         <a href="#home" class="nav__link active-link">
-                            <i class="uil uil-estate nav__icon"></i> Home
+                            <i class="uil uil-estate nav__icon"></i> <p data-section="header" data-value="home">Home</p>
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#about" class="nav__link">
-                            <i class="uil uil-user nav__icon"></i> About me
+                            <i class="uil uil-user nav__icon"></i> <p data-section="header" data-value="about">About me</p>
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#skills" class="nav__link">
-                            <i class="uil uil-atom nav__icon"></i> Skills
+                            <i class="uil uil-atom nav__icon"></i> <p data-section="header" data-value="skills">Skills</p>
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#education" class="nav__link">
-                            <i class="uil uil-briefcase-alt nav__icon"></i> Education
+                            <i class="uil uil-briefcase-alt nav__icon"></i> <p data-section="header" data-value="education">Education</p>
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#portfolio" class="nav__link">
-                            <i class="uil uil-diary nav__icon"></i> Portfolio
+                            <i class="uil uil-diary nav__icon"></i> <p data-section="header" data-value="portfolio">Portfolio</p>
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
-                            <i class="uil uil-comment-lines nav__icon"></i> Contact
+                            <i class="uil uil-comment-lines nav__icon"></i> <p data-section="header" data-value="contact">Contact</p>
                         </a>
                     </li>
                 </ul>

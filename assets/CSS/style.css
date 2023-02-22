@@ -173,6 +173,18 @@ img{
 
 /*===== Nav =====*/
 
+.btnTranslated {
+    background: none;
+    border: none;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+}
+
+#en {
+    display: none;
+}
+
 .nav{
     max-width: 968px;
     height: var(--header-heaight);

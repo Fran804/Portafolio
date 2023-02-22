@@ -1,0 +1,11 @@
+{
+  "header" : {
+    "menu": "Menu",
+    "home": "Home",
+    "about": "About me",
+    "skills": "Skills",
+    "education": "Education",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  }
+}
