@@ -7,5 +7,12 @@
     "education": "Education",
     "portfolio": "Portfolio",
     "contact": "Contact"
+  },
+  "home" : {
+    "subtitle": "Frontend developer",
+    "description": "Student from the Universidad Modelo in Mérida, passionate about technology.",
+    "contact": "Contact me ",
+    "goDown": "Go down"
+
   }
 }
