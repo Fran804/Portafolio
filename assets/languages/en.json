@@ -26,5 +26,15 @@
     "infoCompanies": "Companies",
     "infoWorked": "worked",
     "cv": "Download CV"
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "My lenguages & tecnologys",
+    "title1": "Frontend Developer",
+    "subtitle1": "2 year practicing",
+    "title2": "Backend Developer",
+    "subtitle2": "Nowkledge",
+    "title3": "Desing",
+    "subtitle3": "2 year practicing"
   }
 }

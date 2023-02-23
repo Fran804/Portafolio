@@ -26,5 +26,15 @@
     "infoCompanies": "Compañias",
     "infoWorked": "Trabajadas",
     "cv": "Descargar CV"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "subtitle": "Mis Lenguajes y tecnologías",
+    "title1": "Desarrollador Frontend",
+    "subtitle1": "2 Años practicando",
+    "title2": "Desarrollador Backend",
+    "subtitle2": "Conocimientos",
+    "title3": "Diseño",
+    "subtitle3": "2 años practicando"
   }
 }
