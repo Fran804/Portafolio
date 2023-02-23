@@ -133,14 +133,14 @@
 
         <!--============== About =================-->
         <section class="about section" id="about">
-            <h2 class="section__title">About me</h2>
-            <span class="section__subtitle">Interests</span>
+            <h2 class="section__title" data-section="about" data-value="title">About me</h2>
+            <span class="section__subtitle" data-section="about" data-value="subtitle">Interests</span>
 
             <div class="about__container container grid">
                 <img src="assets/img/about.png" alt="" class="about__img">
 
                 <div class="about__data">
-                    <p class="about__description">
+                    <p class="about__description" data-section="about" data-value="description">
                         Technology and software development engineer, passionate about web development. 
                         I am a person dedicated to what I do, always attentive to details or possible 
                         improvements, I work well in a team or individually, I am always willing to learn 
@@ -149,21 +149,39 @@
                     <div class="about__info">
                         <div>
                             <span class="about__info-title">+2</span>
-                            <span class="about__info-name">Years <br> experience</span>
+                            <p class="about__info-name" data-section="about" data-value="infoYears">
+                                Years 
+                                <br> 
+                                <p class="about__info-name" data-section="about" data-value="infoExperience">
+                                    experience
+                                </p>
+                            </p>
                         </div>
                         <div>
                             <span class="about__info-title">3</span>
-                            <span class="about__info-name">Completed <br> projects</span>
+                            <p class="about__info-name " data-section="about" data-value="infoCompleted">
+                                Completed 
+                                <br> 
+                                <p class="about__info-name" data-section="about" data-value="infoProjects">
+                                    projects
+                                </p>
+                            </p>
                         </div>
                         <div>
                             <span class="about__info-title">2</span>
-                            <span class="about__info-name">Companies <br> worked</span>
+                            <p class="about__info-name" data-section="about" data-value="infoCompanies">
+                                Companies 
+                                <br> 
+                                <p class="about__info-name" data-section="about" data-value="infoWorked">
+                                    worked
+                                </p>
+                            </p>
                         </div>
                     </div>
 
                     <div class="about__buttons">
                         <a download="" href="assets/pdf/Francisco-CV.pdf" class="button button--flex">
-                            Download CV<i class="uil uil-download-alt button__icon"></i>
+                            <p data-section="about" data-value="cv">Download CV</p><i class="uil uil-download-alt button__icon"></i>
                         </a>
                     </div>
                 </div>

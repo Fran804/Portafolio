@@ -14,5 +14,17 @@
     "contact": "Contact me ",
     "goDown": "Go down"
 
+  },
+  "about": {
+    "title": "About me",
+    "subtitle": "Interests",
+    "description": "Technology and software development engineer, passionate about web development. I am a person dedicated to what I do, always attentive to details or possible improvements, I work well in a team or individually, I am always willing to learn new things.",
+    "infoYears": "Years",
+    "infoExperience": "experience",
+    "infoCompleted": "Completed",
+    "infoProjects": "projects",
+    "infoCompanies": "Companies",
+    "infoWorked": "worked",
+    "cv": "Download CV"
   }
 }

@@ -14,5 +14,17 @@
     "contact": "Contáctame ",
     "goDown": "Ir abajo"
 
+  },
+  "about": {
+    "title": "Sobre mi",
+    "subtitle": "Intereses",
+    "description": "Ingeniero en tecnología y desarrollo de software, apasionado por el desarrollo web. Soy una persona dedicada a lo que hago, siempre atento a los detalles o posibles mejoras, trabajo bien en equipo o individualmente, siempre estoy dispuesto a aprender nuevas cosas.",
+    "infoYears": "Años",
+    "infoExperience": "de experiencia",
+    "infoCompleted": "Proyectos",
+    "infoProjects": "completados",
+    "infoCompanies": "Compañias",
+    "infoWorked": "Trabajadas",
+    "cv": "Descargar CV"
   }
 }
