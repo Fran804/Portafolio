@@ -10,7 +10,7 @@
   },
   "home" : {
     "subtitle": "Desarrollador Frontend",
-    "description": "Estudiante de la Universidad Modelo de Mérida, apasionado por la tecnología.",
+    "description": "Estudiante de la Universidad Modelo en Mérida, apasionado por la tecnología.",
     "contact": "Contáctame ",
     "goDown": "Ir abajo"
 
@@ -36,5 +36,23 @@
     "subtitle2": "Conocimientos",
     "title3": "Diseño",
     "subtitle3": "2 años practicando"
+  },
+  "education": {
+    "title": "Educación",
+    "subtitle": "Mis estudios",
+    "school": "Escuela",
+    "certificates": "Certificados",
+    "education_title1": "Ingenieria en Desarrollo de Tecnología y Software",
+    "education_subtitle1": "Universidad Modelo - Mérida",
+    "education_title2": "Desarrollo Web",
+    "education_subtitle2": "Universidad Modelo - Mérida",
+    "education_title3": "Diseño UI/UX",
+    "education_subtitle3": "Universidad Modelo - Mérida",
+    "certificates_title1": "Desarrollo de aplicaciones móviles",
+    "certificates_subtitle1": "Google Active",
+    "certificates_title2": "Introducción al desarrollo web",
+    "certificates_subtitle2": "Google Active",
+    "certificates_title3": "JavaScript University 2021 - De 0 a Máster en JavaScript",
+    "certificates_subtitle3": "Udemy"
   }
 }

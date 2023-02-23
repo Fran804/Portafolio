@@ -36,5 +36,23 @@
     "subtitle2": "Nowkledge",
     "title3": "Desing",
     "subtitle3": "2 year practicing"
+  },
+  "education": {
+    "title": "Education",
+    "subtitle": "My studies",
+    "school": "School",
+    "certificates": "Certificates",
+    "education_title1": "Technology and Software Development Engineer",
+    "education_subtitle1": "Universidad Modelo - Mérida",
+    "education_title2": "Web Developer",
+    "education_subtitle2": "Universidad Modelo - Mérida",
+    "education_title3": "Design UI/UX",
+    "education_subtitle3": "Universidad Modelo - Mérida",
+    "certificates_title1": "Mobile App Development",
+    "certificates_subtitle1": "Google Active",
+    "certificates_title2": "Introduction to Web Development",
+    "certificates_subtitle2": "Google Active",
+    "certificates_title3": "JavaScript University 2021 - From 0 to Master in JavaScript",
+    "certificates_subtitle3": "Udemy"
   }
 }
