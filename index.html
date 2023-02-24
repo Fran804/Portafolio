@@ -499,8 +499,8 @@
 
         <!--============== PORTFOLIO =================-->
         <section class="portfolio section" id="portfolio">
-            <h2 class="section__title">Portfolio</h2>
-            <span class="section__subtitle">My projects</span>
+            <h2 class="section__title" data-section="portafolio" data-value="title">Portfolio</h2>
+            <span class="section__subtitle" data-section="portafolio" data-value="subtitle">My projects</span>
 
             <div class="portfolio__container container swiper-container mySwiper">
                 <div class="swiper-wrapper">
@@ -509,10 +509,10 @@
                         <img src="assets/img/CinemaPop.PNG" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">Cinema Pop</h3>
-                            <p class="portfolio__description">Responsive movie website made with React, API: TMDB and Material UI. You can see the information of both movies and TV series</p>
+                            <h3 class="portfolio__title" data-section="portafolio" data-value="title1">Cinema Pop</h3>
+                            <p class="portfolio__description" data-section="portafolio" data-value="description1">Responsive movie website made with React, API: TMDB and Material UI. You can see the information of both movies and TV series</p>
                             <a href="https://cinemapop.netlify.app" target="_blank" class="button button--flex button--small portfolio__button">
-                                Web site
+                                <p data-section="portafolio" data-value="website">Web site</p>
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
@@ -523,10 +523,10 @@
                         <img src="./assets/img/ReposteriaKirsten.PNG" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">Reposteria Kirsten</h3>
-                            <p class="portfolio__description">Responsive Kirsten Bakery website made with pure HTML5, CSS and JS. This landing page is created with the purpose of landing your customers by showing them your company, what it sells, and how to contact it to order your products.</p>
+                            <h3 class="portfolio__title" data-section="portafolio" data-value="title2">Reposteria Kirsten</h3>
+                            <p class="portfolio__description" data-section="portafolio" data-value="description2">Responsive Kirsten Bakery website made with pure HTML5, CSS and JS. This landing page is created with the purpose of landing your customers by showing them your company, what it sells, and how to contact it to order your products.</p>
                             <a href="https://fran804.github.io/ReposteriaKirsten/" target="_blank" class="button button--flex button--small portfolio__button">
-                                Web site
+                                <p data-section="portafolio" data-value="website">Web site</p>
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
@@ -537,10 +537,10 @@
                         <img src="assets/img/weatherApp.PNG" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">Weather App</h3>
-                            <p class="portfolio__description">Responsive weather website made with HTML5. CSS, JS and API: OpenWeather. You can write any country or city and the page will consult its climate.</p>
+                            <h3 class="portfolio__title" data-section="portafolio" data-value="title3">Weather App</h3>
+                            <p class="portfolio__description" data-section="portafolio" data-value="description3">Responsive weather website made with HTML5. CSS, JS and API: OpenWeather. You can write any country or city and the page will consult its climate.</p>
                             <a href="https://fran804.github.io/WeatherAppJS/" target="_blank" class="button button--flex button--small portfolio__button">
-                                Web site
+                                <p data-section="portafolio" data-value="website">Web site</p>
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
@@ -561,8 +561,8 @@
 
         <!--============== CONTACT ME =================-->
         <section class="contact section" id="contact">
-            <h2 class="section__title">Contact</h2>
-            <span class="section__subtitle">Put in contact with me</span>
+            <h2 class="section__title" data-section="contact" data-value="title">Contact</h2>
+            <span class="section__subtitle" data-section="contact" data-value="subtitle">Put in contact with me</span>
 
             <div class="contact__container container grid">
 
@@ -579,43 +579,11 @@
                     <i class="uil uil-envelope contact__icon"></i>
 
                     <div>
-                        <h3 class="contact__title">Email</h3>
+                        <h3 class="contact__title" data-section="contact" data-value="email">Email</h3>
                         <span class="contact__subtitle">franciscovillalobos804@gmail.com</span>
                     </div>
                 </div>
 
-                
-
-                <!-- <form name="contact" method="POST" data-netlify="true" class="contact__form grid">
-                    <div class="contact__inputs grid">
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Nombre:</label>
-                            <input type="text" name="name" class="contact__input">
-                        </div>
-
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Correo:</label>
-                            <input type="email" name="mail" class="contact__input">
-                        </div>
-                    </div>
-
-                    <div class="contact__content">
-                        <label for="" class="contact__label">Asunto:</label>
-                        <input type="email" name="subject" class="contact__input">
-                    </div>
-
-                    <div class="contact__content">
-                        <label for="" class="contact__label">Mensaje:</label>
-                        <textarea name="message" id="" cols="0" rows="7" class="contact__input"></textarea>
-                    </div>
-
-                    <div>
-                        <a href="#contact" class="button button--flex">
-                            Enviar mensaje
-                            <i class="uil uil-message button__icon"></i>
-                        </a>
-                    </div>
-                </form> -->
             </div>
         </section>
     </main>
@@ -625,16 +593,16 @@
         <div class="footer_bg">
             <div class="footer__container container grid">
                 <div>
-                    <h1 class="footer__title">Francisco</h1>
-                    <span class="footer__subtitle">Frontend developer</span>
+                    <h1 class="footer__title" data-section="footer" data-value="title">Francisco</h1>
+                    <span class="footer__subtitle" data-section="footer" data-value="subtitle">Frontend developer</span>
                 </div>
 
                 <ul class="footer__links">
                     <li>
-                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                        <a href="#portfolio" class="footer__link" data-section="footer" data-value="portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#skills" class="footer__link">Skills</a>
+                        <a href="#skills" class="footer__link" data-section="footer" data-value="skills">Skills</a>
                     </li>
                 </ul>
 
@@ -651,7 +619,7 @@
                 </div>
             </div>
 
-            <p class="footer__copy">&#169; Francisco. All rights reserved</p>
+            <p class="footer__copy" data-section="footer" data-value="rights">&#169; Francisco. All rights reserved</p>
         </div>
     </footer>
     
