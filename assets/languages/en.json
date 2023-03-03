@@ -69,7 +69,12 @@
   "contact": {
     "title": "Contact",
     "subtitle": "Put in contact with me",
-    "email": "Email"
+    "email": "Email",
+    "emailForm": "Email:",
+    "nameForm": "Name:",
+    "subjectForm": "Subject:",
+    "messageForm": "Message:",
+    "buttonForm": "Send Message"
   },
   "footer": {
     "title": "Francisco",
