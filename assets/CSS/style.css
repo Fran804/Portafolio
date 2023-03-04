@@ -738,6 +738,7 @@ img{
     border: none;
     font-family: 'Poppins';
     font-size: var(--normal-font-size);
+    cursor: pointer;
 }
 
 /*======= Footer =========*/
