@@ -59,12 +59,14 @@
     "title": "Portfolio",
     "subtitle": "My projects",
     "website": "Web site",
+    "title2": "Alejandra Beauty Salon",
     "title1": "Cinema Pop",
     "description1": "Responsive movie website made with React, API: TMDB and Material UI. You can see the information of both movies and TV series.",
-    "title2": "Reposteria Kirsten",
-    "description2": "Responsive Kirsten Bakery website made with pure HTML5, CSS and JS. This landing page is created with the purpose of landing your customers by showing them your company, what it sells, and how to contact it to order your products.",
-    "title3": "Weather App",
-    "description3": "Responsive weather website made with HTML5. CSS, JS and API: OpenWeather. You can write any country or city and the page will consult its climate."
+    "description2": "Responsive Beauty Salon website made with pure HTML5, CSS and JS. This landing page is made with the purpose of promoting and knowing the services offered by the beauty salon..",
+    "title3": "Reposteria Kirsten",
+    "description3": "Responsive Kirsten Bakery website made with pure HTML5, CSS and JS. This landing page is created with the purpose of landing your customers by showing them your company, what it sells, and how to contact it to order your products.",
+    "title4": "Weather App",
+    "description4": "Responsive weather website made with HTML5. CSS, JS and API: OpenWeather. You can write any country or city and the page will consult its climate."
   },
   "contact": {
     "title": "Contact",

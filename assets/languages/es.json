@@ -61,10 +61,12 @@
     "website": "Sitio web",
     "title1": "Cinema Pop",
     "description1": "Sitio web responsivo de películas hecho con React, API: TMDB y Material UI. Puedes ver la información tanto de películas como de series de TV.",
-    "title2": "Reposteria Kirsten",
-    "description2": "Sitio web responsivo de la Reposteria Kirsten hecho con HTML5, CSS y JS puro. Esta landing page esta creada con el proposito de aterrizar a sus clientes mostrandoles su empresa, que vende, y como contactarla para pedir sus productos.",
-    "title3": "Weather App",
-    "description3": "Sitio web responsivo del clima hecho con HTML5, CSS, JS y API: OpenWeather. Puedes escribir cualquier país o ciudad y la página consultará el clima."
+    "title2": "Alejandra Beauty Salon",
+    "description2": "Sitio web responsivo del salon de belleza Alejandra Beauty Salon hecho con HTML5 puro, CSS y JS. Esta landing page se realiza con el propósito de promocionar y conocer los servicios que ofrece el salón de belleza.",
+    "title3": "Reposteria Kirsten",
+    "description3": "Sitio web responsivo de la Reposteria Kirsten hecho con HTML5, CSS y JS puro. Esta landing page esta creada con el proposito de aterrizar a sus clientes mostrandoles su empresa, que vende, y como contactarla para pedir sus productos.",
+    "title4": "Weather App",
+    "description4": "Sitio web responsivo del clima hecho con HTML5, CSS, JS y API: OpenWeather. Puedes escribir cualquier país o ciudad y la página consultará el clima."
   },
   "contact": {
     "title": "Contacto",

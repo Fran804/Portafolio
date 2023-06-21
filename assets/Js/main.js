@@ -10,6 +10,7 @@ btnTranslatedEs.addEventListener('click', (e) =>  {
 });
 
 btnTranslatedEn.addEventListener('click', (e) =>  {
+  languageId = e.target.dataset.language
   btnTranslatedEn.style.display = 'none';
   btnTranslatedEs.style.display = 'contents';
   changeLanguage(e.target.dataset.language);
@@ -28,6 +29,25 @@ const changeLanguage = async language => {
 }
 
 /*==================== END TRANSLATED TEXT ====================*/
+
+/* =================== SUBMIT BUTTON ========================= */
+const inputsContact = document.querySelectorAll('.contact__input')
+
+function validateForm(e){
+    for(let text of inputsContact) {
+        var value = text.value;
+        if(value == ''){
+            console.log("No enviar")
+            e.preventDefault();
+            return;
+        }
+    }
+
+    console.log("No hay vacios, enviando")
+}
+
+
+/* =================== END SUBMIT BUTTON ========================= */
 
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
