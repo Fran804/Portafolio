@@ -66,7 +66,9 @@
     "title3": "Reposteria Kirsten",
     "description3": "Responsive Kirsten Bakery website made with pure HTML5, CSS and JS. This landing page is created with the purpose of landing your customers by showing them your company, what it sells, and how to contact it to order your products.",
     "title4": "Weather App",
-    "description4": "Responsive weather website made with HTML5. CSS, JS and API: OpenWeather. You can write any country or city and the page will consult its climate."
+    "description4": "Responsive weather website made with HTML5. CSS, JS and API: OpenWeather. You can write any country or city and the page will consult its climate.",
+    "title5": "MarkNotes",
+    "description5": "Responsive note management website made with ReactJs, Bootstrap and Vite. You can create, view, edit and delete any note of your choice, even supporting markdown handling on the note text."
   },
   "contact": {
     "title": "Contact",

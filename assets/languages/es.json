@@ -66,7 +66,9 @@
     "title3": "Reposteria Kirsten",
     "description3": "Sitio web responsivo de la Reposteria Kirsten hecho con HTML5, CSS y JS puro. Esta landing page esta creada con el proposito de aterrizar a sus clientes mostrandoles su empresa, que vende, y como contactarla para pedir sus productos.",
     "title4": "Weather App",
-    "description4": "Sitio web responsivo del clima hecho con HTML5, CSS, JS y API: OpenWeather. Puedes escribir cualquier país o ciudad y la página consultará el clima."
+    "description4": "Sitio web responsivo del clima hecho con HTML5, CSS, JS y API: OpenWeather. Puedes escribir cualquier país o ciudad y la página consultará el clima.",
+    "title5": "MarkNotes",
+    "description5": "Sitio web de gestión de notas responsivo hecho con ReactJs, Bootstrap y Vite. Puedes crear, visualizar, editar y eliminar cualquier nota de tu preferencia, soportando incluso el manejo de markdown en el texto de la nota."
   },
   "contact": {
     "title": "Contacto",
