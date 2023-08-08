@@ -20,12 +20,15 @@
     <!--============== HEADER ===============-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav__logo" data-section="header" data-value="menu">Menu</a>
 
-            <a class="nav__logo">|</a>
-
-            <button href="" class="nav__logo btnTranslated" id="es" data-language="es">En español</button>
-            <button href="" class="nav__logo btnTranslated" id="en" data-language="en">In English</button>
+            <div>
+                <button href="" class="nav__logo btnTranslated" id="es" data-language="es">
+                    <iconify-icon class="avoid-event" icon="flag:es-4x3"></iconify-icon> En español
+                </button>
+                <button href="" class="nav__logo btnTranslated" id="en" data-language="en">
+                    <iconify-icon class="avoid-event" icon="flag:lr-4x3"></iconify-icon> In English
+                </button>
+            </div>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
@@ -115,7 +118,7 @@
                     <div class="home__data">
                         <h1 class="home__title">Francisco Ivan Perez Villalobos</h1>
                         <h3 class="home__subtitle" data-section="home" data-value="subtitle">Frontend developer</h3>
-                        <p class="home__description" data-section="home" data-value="description">Student from the Modelo university in Mérida, passionate about technology.</p>
+                        <p class="home__description" data-section="home" data-value="description">Software engineer, passionate about technology.</p>
                         <a href="#contact" class="button button--flex"><p data-section="home" data-value="contact">Contact me</p> <i class="uil uil-message button__icon"></i>
                         </a>
                     </div>
@@ -679,7 +682,9 @@
             <p class="footer__copy" data-section="footer" data-value="rights">&#169; Francisco. All rights reserved</p>
         </div>
     </footer>
-    
+
+    <!--============== ICONS ==============-->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <!--============== SWIPER JS =============-->
     <script src="assets/Js/swiper-bundle.min.js"></script>
     <!--============== MAIN JS ===============-->

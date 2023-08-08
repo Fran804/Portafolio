@@ -132,6 +132,10 @@ img{
     height: auto;
 }
 /*===== Reusable css classes =====*/
+.avoid-event {
+    pointer-events: none;
+}
+
 .section{
     padding: 2rem 0 4rem;
 }
