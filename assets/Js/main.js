@@ -27,7 +27,6 @@ const changeLanguage = async language => {
     textIndex.innerHTML = texts[section][value];
   }
 }
-
 /*==================== END TRANSLATED TEXT ====================*/
 
 /* =================== SUBMIT BUTTON ========================= */
