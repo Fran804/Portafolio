@@ -20,7 +20,3 @@ sr.reveal('.about__info-title', {interval: 100})
 sr.reveal('.about__info-name', {interval: 200})
 sr.reveal('.about_button', {delay: 100})
 
-// CONTACT
-sr.reveal('.contact__information', {interval: 200})
-sr.reveal('.contact__content', {})
-
