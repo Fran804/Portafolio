@@ -18,5 +18,4 @@ sr.reveal('.about__img', {})
 sr.reveal('.about__description', {})
 sr.reveal('.about__info-title', {interval: 100})
 sr.reveal('.about__info-name', {interval: 200})
-sr.reveal('.about_button', {delay: 100})
 

@@ -3,17 +3,29 @@ const btnTranslatedEs = document.querySelector('#es'),
       btnTranslatedEn = document.querySelector('#en');
       textsToTranslated = document.querySelectorAll('[data-section]');
 
+const cvTranslatedEs = document.querySelector('#cv-es'),
+      cvTranslatedEn = document.querySelector('#cv-en');
+
 btnTranslatedEs.addEventListener('click', (e) =>  {
+    //Change btn Translated language
+    languageId = e.target.dataset.language
     btnTranslatedEs.style.display = 'none';
     btnTranslatedEn.style.display = 'contents';
+    //Change CV language PDF
+    cvTranslatedEn.style.display = 'none';
+    cvTranslatedEs.style.display = 'contents';
     changeLanguage(e.target.dataset.language);
 });
 
 btnTranslatedEn.addEventListener('click', (e) =>  {
-  languageId = e.target.dataset.language
-  btnTranslatedEn.style.display = 'none';
-  btnTranslatedEs.style.display = 'contents';
-  changeLanguage(e.target.dataset.language);
+    //Change btn Translated language
+    languageId = e.target.dataset.language
+    btnTranslatedEn.style.display = 'none';
+    btnTranslatedEs.style.display = 'contents';
+    //Change CV language PDF
+    cvTranslatedEs.style.display = 'none';
+    cvTranslatedEn.style.display = 'contents';
+    changeLanguage(e.target.dataset.language);
 });
 
 const changeLanguage = async language => {

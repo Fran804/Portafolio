@@ -4,15 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Francisco's portfolio</title>
-    <link rel="icon" href="assets/img/portafolio.ico">
 
+    <!-- HTML Meta Tags -->
+    <title>Francisco Perez Portafolio</title>
+    <meta name="description" content="Mi portafolio web personalizado hecho con HTML, CSS y JavaScript en donde hablo sobre mi carrera como Desarrollador  Web Frontend y mis proyectos personales">
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Francisco Perez Portafolio">
+    <meta itemprop="description" content="Mi portafolio web personalizado hecho con HTML, CSS y JavaScript en donde hablo sobre mi carrera como Desarrollador  Web Frontend y mis proyectos personales">
+    <meta itemprop="image" content="assets/img/portafolio.ico">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://fran804.github.io/Portafolio">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Francisco Perez Portafolio">
+    <meta property="og:description" content="Mi portafolio web personalizado hecho con HTML, CSS y JavaScript en donde hablo sobre mi carrera como Desarrollador  Web Frontend y mis proyectos personales">
+    <meta property="og:image" content="assets/img/portafolio.ico">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Francisco Perez Portafolio">
+    <meta name="twitter:description" content="Mi portafolio web personalizado hecho con HTML, CSS y JavaScript en donde hablo sobre mi carrera como Desarrollador  Web Frontend y mis proyectos personales">
+    <meta name="twitter:image" content="assets/img/portafolio.ico">
+
+    <link rel="icon" href="assets/img/portafolio.ico">
     <!--============== UNICONS ==============-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-
     <!--============== SWIPER CSS ===========-->
     <link rel="stylesheet" href="assets/CSS/swiper-bundle.min.css">
-
     <!--============== CSS ==================-->
     <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
@@ -183,9 +202,16 @@
                     </div>
 
                     <div class="about__buttons">
-                        <a download="" href="assets/pdf/Francisco-EN-CV.pdf" class="button button--flex about_button">
-                            <p data-section="about" data-value="cv">Download CV</p><i class="uil uil-download-alt button__icon"></i>
-                        </a>
+                        <div id="cv-en">
+                            <a download="" href="assets/pdf/Francisco-EN-CV.pdf" class="button button--flex about_button">
+                                <p>Download CV</p><i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                        <div id="cv-es">
+                            <a download="" href="assets/pdf/Francisco-ES-CV.pdf" class="button button--flex about_button">
+                                <p>Descargar CV</p><i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
