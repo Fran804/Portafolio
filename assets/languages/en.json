@@ -18,7 +18,7 @@
   "about": {
     "title": "About me",
     "subtitle": "Interests",
-    "description": "Technology and software development engineer, passionate about web development. I am a person dedicated to what I do, always attentive to details or possible improvements, I work well in a team or individually, I am always willing to learn new things.",
+    "description": "Technology and software development engineer, with more than 3 years of experience in web development. I am a person dedicated to what I do, always attentive to details or possible improvements, I work well in a team or individually, I am always willing to learn new things.",
     "infoYears": "Years",
     "infoExperience": "experience",
     "infoCompleted": "Completed",
@@ -31,11 +31,11 @@
     "title": "Skills",
     "subtitle": "My lenguages & tecnologys",
     "title1": "Frontend Developer",
-    "subtitle1": "2 year practicing",
+    "subtitle1": "Nowkledge",
     "title2": "Backend Developer",
     "subtitle2": "Nowkledge",
     "title3": "Desing",
-    "subtitle3": "2 year practicing"
+    "subtitle3": "Nowkledge"
   },
   "education": {
     "title": "Education",

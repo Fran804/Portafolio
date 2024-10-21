@@ -18,7 +18,7 @@
   "about": {
     "title": "Sobre mi",
     "subtitle": "Intereses",
-    "description": "Ingeniero en tecnología y desarrollo de software, apasionado por el desarrollo web. Soy una persona dedicada a lo que hago, siempre atento a los detalles o posibles mejoras, trabajo bien en equipo o individualmente, siempre estoy dispuesto a aprender nuevas cosas.",
+    "description": "Ingeniero en tecnología y desarrollo de software, con mas de 3 años de experiencia en desarrollo web. Soy una persona dedicada a lo que hago, siempre atento a los detalles o posibles mejoras, trabajo bien en equipo o individualmente, siempre estoy dispuesto a aprender nuevas cosas.",
     "infoYears": "Años",
     "infoExperience": "de experiencia",
     "infoCompleted": "Proyectos",
@@ -31,11 +31,11 @@
     "title": "Habilidades",
     "subtitle": "Mis Lenguajes y tecnologías",
     "title1": "Desarrollador Frontend",
-    "subtitle1": "2 Años practicando",
+    "subtitle1": "Conocimientos",
     "title2": "Desarrollador Backend",
     "subtitle2": "Conocimientos",
     "title3": "Diseño",
-    "subtitle3": "2 años practicando"
+    "subtitle3": "Conocimientos"
   },
   "education": {
     "title": "Educación",
